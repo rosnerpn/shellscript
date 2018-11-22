@@ -10,7 +10,7 @@ echo "Script para Instalação do OCS Inventory Server 2.5"
 
  
 apt-get update -y
-apt-get install install php-curl apache2-dev gcc perl-modules-5.22 make apache2 mysql-server php perl libapache2-mod-perl2 libapache2-mod-php libio-compress-perl libxml-simple-perl libdbi-perl libdbd-mysql-perl libapache-dbi-perl libsoap-lite-perl libnet-ip-perl php-mysql php-gd php7.0-dev php-mbstring php-soap php-xml php-pclzip libarchive-zip-perl php7.0-zip
+apt-get install php-curl apache2-dev gcc perl-modules-5.22 make apache2 mysql-server php perl libapache2-mod-perl2 libapache2-mod-php libio-compress-perl libxml-simple-perl libdbi-perl libdbd-mysql-perl libapache-dbi-perl libsoap-lite-perl libnet-ip-perl php-mysql php-gd php7.0-dev php-mbstring php-soap php-xml php-pclzip libarchive-zip-perl php7.0-zip
 apt-get install make build-essential mysql-client snmp nmap -y
 
 echo "Instalando os módulos PERL"
@@ -37,6 +37,7 @@ apt-get install php-mbstring -y
 apt-get install php-net-ldap -y
 
 echo "Criando pasta OCS_Inventory"
+cd ..
 mkdir OCS_Inventory && cd OCS_Inventory
 echo "Efetuando Download do OCS_Inventory 2.5"
 wget https://github.com/OCSInventory-NG/OCSInventory-ocsreports/releases/download/2.5/OCSNG_UNIX_SERVER_2.5.tar.gz
