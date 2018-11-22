@@ -3,7 +3,8 @@
 ###Script_Instalação_OCS########  		   
 ###Criado_por_Rosner_Nascimento# 
 ###email_ros.tecinfo@gmai.com###
-###Data_criação_25_03_15########
+###Data_criação_20_11_2018######
+###Data_alteração_21_11_2018####
 ################################
 
 echo "Script para Instalação do OCS Inventory Server 2.5"
